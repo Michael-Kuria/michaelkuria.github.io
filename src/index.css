@@ -3,8 +3,7 @@
 
 :root {
   --font-family-body: 'inter', sans-serif;
-  --font-family-heading: 'noto-serif', serif;
-  
+  --font-family-heading: 'noto serif', serif;
   --color-bg: #D9D9D9;
   --color-footer: #333;
 }

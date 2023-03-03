@@ -5,18 +5,13 @@
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: var(--color-bg);
-}
-
-a{
+/* a{
     color: unset;
     text-decoration: none;
     padding-left: 2rem;
-}
+} */
 
 .gradient__background{
-
     background:-moz-linear-gradient(135deg, #02AAB0 0%, #14AD95 100%);
 
     /* safari 5.1+,chrome 10+ */
@@ -36,5 +31,5 @@ a{
 }
 
 .section__padding{
-
+    padding: 2rem 4rem;
 }
