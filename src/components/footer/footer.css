@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-footer);
+    color: var(--color-bg);
+    font-family: var(--font-family-body);
+    font-size: 1.3rem;
+}
