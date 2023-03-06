@@ -10,7 +10,6 @@ import {
   faJs,
   faFigma,
 } from "@fortawesome/free-brands-svg-icons";
-import postgresql from "../../assets/postgresql.gif";
 import "./skills.css";
 
 export default function Skills() {

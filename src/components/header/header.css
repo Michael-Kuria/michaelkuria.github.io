@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     background-color: var(--color-bg);
-    height: calc(100vh - 5rem);
+    min-height:calc(100vh - 5rem);
     align-items: center;
     gap: 2rem;
 
@@ -13,8 +13,8 @@
 }
 
 .header__image{
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     background-color: var(--color-bg) ;
 }
 
@@ -63,7 +63,8 @@
 
 @media screen and (max-width: 950px) {
     .header{
-        height: fit-content;
+        min-height: fit-content;
+
     }
     .header__image{
         width: 300px;

@@ -31,5 +31,29 @@
 }
 
 .section__padding{
-    padding: 2rem 4rem;
+    padding: 5rem 4rem;
+}
+
+
+.link__button{
+    padding: 1rem 1.2rem;
+    border: 2px solid #02AAB0;
+    font-size: 1.3rem;
+    font-family: inherit;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.link__button a{
+    color: transparent;
+    background-clip: text;
+}
+
+.link__button:hover{
+    background:linear-gradient(135deg, #02AAB0 0%, #14AD95 100%);
+
+}
+.link__button:hover a{
+    color: var(--color-bg);
 }
