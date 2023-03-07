@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/michaelkuria.github.io/static/css/main.eb40e42f.css",
+    "main.js": "/michaelkuria.github.io/static/js/main.2390ebf0.js",
+    "static/media/Little Lemon-home.png": "/michaelkuria.github.io/static/media/Little Lemon-home.42759c31d0c5657b747a.png",
+    "static/media/Michael.JPG": "/michaelkuria.github.io/static/media/Michael.8f6e719af7ee9e62bc01.JPG",
+    "index.html": "/michaelkuria.github.io/index.html",
+    "main.eb40e42f.css.map": "/michaelkuria.github.io/static/css/main.eb40e42f.css.map",
+    "main.2390ebf0.js.map": "/michaelkuria.github.io/static/js/main.2390ebf0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb40e42f.css",
+    "static/js/main.2390ebf0.js"
+  ]
+}
