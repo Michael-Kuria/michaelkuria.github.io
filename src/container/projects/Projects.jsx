@@ -7,8 +7,9 @@ export default function Projects() {
   const projects = [
     {
       title: "Little Lemon Restaurant",
-      description: "description",
-      technologies: "Technologies",
+      description:
+        "A restaurant website displaying restaurant information and the food available in the menu. It also has a form for table reservation ",
+      technologies: "React, CSS3, HTML5",
       url: "#",
       image: littleLemon,
     },

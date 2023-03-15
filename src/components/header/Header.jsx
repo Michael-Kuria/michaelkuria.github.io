@@ -4,10 +4,7 @@ import "./header.css";
 
 export default function Header() {
   return (
-    <header className="header section__padding" id="header">
-      <div className="header__image">
-        <img src={michael} alt="Michael Kuria" />
-      </div>
+    <header className="header" id="header">
       <div className="header__content">
         <p>
           Hi, my name is{" "}
@@ -15,16 +12,21 @@ export default function Header() {
         </p>
         <p>I'm a Full Stack Developer.</p>
       </div>
-      <div className="header__btn">
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="gradient__background"
-        >
-          Download Resume
-        </a>
+
+      <div className="header__image">
+        <img src={michael} alt="Michael Kuria" />
       </div>
+
+      {/* <div className="header__btn">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="gradient__background"
+          >
+            Download Resume
+          </a>
+        </div> */}
     </header>
   );
 }

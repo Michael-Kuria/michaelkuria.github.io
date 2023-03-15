@@ -16,11 +16,11 @@ export default function Project({
         <p>{technologies}</p>
         <div className="link__button">
           <a href={url} className="gradient__background">
-            See Live
+            Github Repo
           </a>
         </div>
       </div>
-      <div className="project__image ">
+      <div className="project__image wobble-hor-bottom">
         <img src={image} alt="" />
       </div>
     </div>

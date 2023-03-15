@@ -21,6 +21,10 @@
     color: var(--color-footer);
 }
 
+.navbar__socials-icon:hover{
+    color: var(--color-bg);
+}
+
 
 .navbar__links{
     font-size: 20px;
@@ -44,6 +48,10 @@ a {
 
 }
 
+a:hover{
+    color: var(--color-bg);
+}
+
 ul a::after{
     content: "";
     position: absolute;
@@ -51,7 +59,7 @@ ul a::after{
     top: 27px;
     height: 2px;
     width: 0px;
-    background-color: var(--color-footer);
+    background-color: var(--color-bg);
     
 }
 
