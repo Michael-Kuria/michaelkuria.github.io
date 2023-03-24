@@ -11,7 +11,7 @@ export default function App() {
       <Header />
       <Skills />
       <Projects />
-      <ContactMe />
+      {/* <ContactMe /> */}
       <Footer />
     </div>
   );

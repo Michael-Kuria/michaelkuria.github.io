@@ -6,11 +6,12 @@ export default function Header() {
   return (
     <header className="header" id="header">
       <div className="header__content">
-        <p>
-          Hi, my name is{" "}
-          <span className="gradient__background">Michael Kuria</span>
+        <p className="header__content--name">
+          Hi👋, I'm <span className="gradient__background">Michael Kuria</span>
         </p>
-        <p>I'm a Full Stack Developer.</p>
+        <p className="header__content--fullstack">
+          I'm a Full Stack Developer.
+        </p>
       </div>
 
       <div className="header__image">

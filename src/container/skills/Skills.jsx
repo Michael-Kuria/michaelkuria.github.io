@@ -24,11 +24,9 @@ export default function Skills() {
           ></path>
         </svg>
         <div className="skills section__padding" style={{ paddingTop: "0rem" }}>
-          <div className="skills__title">
+          <div className="section__title">
             <h3>SKILLS & TOOLS</h3>
-            <p>
-              Skills, tools and technologies I use to bring products to life:
-            </p>
+            <p>Skills and tools I use to bring products to life:</p>
           </div>
           <div className="skills__content">
             <Skill icon={faJava} name="Java" />

@@ -27,8 +27,8 @@
 
 
 .navbar__links{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 ul {
@@ -52,7 +52,7 @@ a:hover{
     color: var(--color-bg);
 }
 
-ul a::after{
+/* ul a::after{
     content: "";
     position: absolute;
     left: 0px;
@@ -67,7 +67,7 @@ ul a:hover::after{
     width: 100%;
     transition: width .4s;
   transition-timing-function: ease-in-out;
-}
+} */
 
 .navbar__menu ul{
     flex-direction: column;
@@ -90,6 +90,7 @@ ul a:hover::after{
     font-size: 1.2rem;
 
     background-color: #02AAB0;
+    z-index: 20;
 }
 
 .navbar__menu-icon{

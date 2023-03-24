@@ -15,13 +15,29 @@ export default function Project({
         <p>{description}</p>
         <p>{technologies}</p>
         <div className="link__button">
-          <a href={url} className="gradient__background">
+          <a
+            href={url}
+            className="gradient__background"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Github Repo
           </a>
         </div>
       </div>
-      <div className="project__image wobble-hor-bottom">
-        <img src={image} alt="" />
+      <div className="project__image">
+        <div
+          style={{
+            width: "100%",
+            height: "100%",
+            borderRadius: "1rem",
+            overflow: "hidden",
+            backgroundImage: `url(${image})`,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "right top",
+          }}
+        ></div>
       </div>
     </div>
   );

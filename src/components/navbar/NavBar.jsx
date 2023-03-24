@@ -23,25 +23,25 @@ const Links = ({ handleLinkClick }) => {
   return (
     <ul>
       <li>
-        <a href="/#about" onClick={handleLinkClick}>
+        <a href="/#about" onClick={() => handleLinkClick("about")}>
           About
         </a>
       </li>
       <li>
-        <a href="/#skills" onClick={handleLinkClick}>
+        <a href="/#skills" onClick={() => handleLinkClick("skills")}>
           Skills
         </a>
       </li>
       <li>
-        <a href="/#projects" onClick={handleLinkClick}>
+        <a href="/#projects" onClick={() => handleLinkClick("projects")}>
           Projects
         </a>
       </li>
-      <li>
+      {/* <li>
         <a href="/#contact-me" onClick={handleLinkClick}>
           Contact Me
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 };
@@ -49,8 +49,15 @@ const Links = ({ handleLinkClick }) => {
 export default function NavBar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
-  const handleLinkClick = () => {
-    setToggleMenu(false);
+  const handleLinkClick = (anchor) => () => {
+    const id = `${anchor}`;
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
   };
   return (
     <nav className="navbar gradient__background">
@@ -80,7 +87,7 @@ export default function NavBar() {
         <FontAwesomeIcon
           icon={faBars}
           size="2x"
-          onClick={() => setToggleMenu(true)}
+          onClick={() => setToggleMenu((prev) => !prev)}
         />
       </div>
 
@@ -90,7 +97,7 @@ export default function NavBar() {
             <FontAwesomeIcon
               icon={faXmark}
               size="2x"
-              onClick={() => setToggleMenu(false)}
+              onClick={() => setToggleMenu((prev) => !prev)}
             />
           </div>
           <Links handleLinkClick={handleLinkClick} />

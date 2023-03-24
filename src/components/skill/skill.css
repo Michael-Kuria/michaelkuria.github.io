@@ -6,3 +6,25 @@
     padding: 1rem;
     font-family: var(--font-family-body);
 }
+
+
+.skill p{
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width: 900px){
+    .skill p{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .skill p{
+        font-size: 1rem;
+    }
+
+}
