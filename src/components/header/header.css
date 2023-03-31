@@ -37,6 +37,7 @@
     font-size: 3.2rem;
     font-weight: 500;
     align-items: center;
+    text-align: center;
     /* -webkit-animation: bounce-top 0.9s both;
 	        animation: bounce-top 0.9s both; */
             -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -50,6 +51,7 @@
 .header__content--fullstack{
     font-size: 5rem;
     margin-top: 2rem;
+    text-align: center;
 }
 
 

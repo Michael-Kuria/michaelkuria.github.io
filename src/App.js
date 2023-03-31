@@ -1,18 +1,21 @@
 import React from "react";
-import { Navbar, Header, Footer, ContactMe } from "./components";
+import { Navbar, Header, Footer } from "./components";
 import { Skills, Projects } from "./container";
 
 import "./app.css";
+import { BrowserRouter } from "react-router-dom";
 
 export default function App() {
   return (
-    <div>
-      <Navbar />
-      <Header />
-      <Skills />
-      <Projects />
-      {/* <ContactMe /> */}
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div>
+        <Navbar />
+        <Header />
+        <Skills />
+        <Projects />
+        {/* <ContactMe /> */}
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }

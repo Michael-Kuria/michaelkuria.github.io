@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
 const socials = [
   {
@@ -23,19 +24,31 @@ const Links = ({ handleLinkClick }) => {
   return (
     <ul>
       <li>
-        <a href="/#about" onClick={() => handleLinkClick("about")}>
+        <Link
+          to="#about"
+          onClick={() => handleLinkClick("about")}
+          reloadDocument
+        >
           About
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="/#skills" onClick={() => handleLinkClick("skills")}>
+        <Link
+          to="#skills"
+          onClick={() => handleLinkClick("skills")}
+          reloadDocument
+        >
           Skills
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="/#projects" onClick={() => handleLinkClick("projects")}>
+        <Link
+          to="#projects"
+          onClick={() => handleLinkClick("projects")}
+          reloadDocument
+        >
           Projects
-        </a>
+        </Link>
       </li>
       {/* <li>
         <a href="/#contact-me" onClick={handleLinkClick}>
