@@ -26,7 +26,7 @@ export default function Project({
         </div>
       </div>
       <div className="project__image">
-        <div
+        {/* <div
           style={{
             width: "100%",
             height: "100%",
@@ -37,7 +37,8 @@ export default function Project({
             backgroundRepeat: "no-repeat",
             backgroundPosition: "right top",
           }}
-        ></div>
+        ></div> */}
+        <img src={image} alt="" />
       </div>
     </div>
   );

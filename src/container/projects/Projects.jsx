@@ -17,7 +17,7 @@ export default function Projects() {
     {
       title: "Budget Tracker Application",
       description:
-        "A Tool for managing personal finances. By providing users with the ability to input and view their transactions on tables and graphs, they can better understand their spending habits and take steps to achieve their financial goals",
+        "A Tool for managing personal finances. By providing users with the ability to input and view their transactions on tables and graphs, so that they can better understand their spending habits and take steps to achieve their financial goals",
       technologies: "React, CSS3, HTML5, Spring boot",
       url: "https://github.com/Michael-Kuria/Budget-Tracker-Application",
       image: budgetTracker,
