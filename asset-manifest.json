@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4c17f04c.css",
-    "main.js": "/portfolio/static/js/main.a1391599.js",
-    "static/media/little-lemon-home.png": "/portfolio/static/media/little-lemon-home.42759c31d0c5657b747a.png",
+    "main.css": "/portfolio/static/css/main.238dde0c.css",
+    "main.js": "/portfolio/static/js/main.af016351.js",
+    "static/media/little-lemon-home.png": "/portfolio/static/media/little-lemon-home.77a5b33cbedf306e8c03.png",
     "static/media/Michael.JPG": "/portfolio/static/media/Michael.8f6e719af7ee9e62bc01.JPG",
     "static/media/budget-tracker-application-overview-page.png": "/portfolio/static/media/budget-tracker-application-overview-page.375531f42b4679a38b24.png",
     "index.html": "/portfolio/index.html",
-    "main.4c17f04c.css.map": "/portfolio/static/css/main.4c17f04c.css.map",
-    "main.a1391599.js.map": "/portfolio/static/js/main.a1391599.js.map"
+    "main.238dde0c.css.map": "/portfolio/static/css/main.238dde0c.css.map",
+    "main.af016351.js.map": "/portfolio/static/js/main.af016351.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c17f04c.css",
-    "static/js/main.a1391599.js"
+    "static/css/main.238dde0c.css",
+    "static/js/main.af016351.js"
   ]
 }
