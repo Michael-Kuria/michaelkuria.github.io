@@ -1,7 +1,7 @@
 import React from "react";
 import { Project } from "../../components";
 import littleLemon from "../../assets/little-lemon-home.png";
-import budgetTracker from "../../assets/budget-tracker-application-overview-page.png";
+import budgetTracker from "../../assets/Budget Tracker - Overview.png";
 import "./projects.css";
 
 export default function Projects() {

@@ -26,12 +26,6 @@
     width: fit-content;
 }
 
-/* .project__content h2:hover{
-  color: transparent;
-    background:linear-gradient(135deg, #02AAB0 0%, #14AD95 100%);
-    background-clip: text;
-} */
-
 .project__content p{
     font-size: 1.1rem;
     line-height: 1.6rem;
